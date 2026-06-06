@@ -1,0 +1,33 @@
+# Weather App
+
+A Weather App built using Kotlin and Jetpack Compose.
+
+## Features
+
+* Search weather by city
+* Real-time weather information
+* Loading state
+* Error handling
+* Weather icons
+* MVVM Architecture
+* Retrofit API integration
+* Coil image loading
+
+## API
+
+Weather data is fetched from WeatherAPI.
+
+## Setup
+
+1. Get a free API key from WeatherAPI.
+2. Open `Constant.kt`.
+3. Replace:
+
+```kotlin
+const val apikey = "YOUR_API_KEY"
+```
+
+with your WeatherAPI key.
+
+4. Sync the project.
+5. Run the application.
